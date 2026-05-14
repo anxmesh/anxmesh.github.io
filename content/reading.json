@@ -1,0 +1,43 @@
+{
+  "entries": [
+    {
+      "title": "Thinking in Systems",
+      "author": "Donella Meadows",
+      "note": "The best primer on systems thinking. Changed how I approach complex problems at work.",
+      "type": "book",
+      "url": "https://www.goodreads.com/book/show/3828902-thinking-in-systems",
+      "displayOrder": 1
+    },
+    {
+      "title": "The Design of Everyday Things",
+      "author": "Don Norman",
+      "note": "Foundational for anyone building products. Makes you see affordances everywhere.",
+      "type": "book",
+      "url": "https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things",
+      "displayOrder": 2
+    },
+    {
+      "title": "Storytelling with Data",
+      "author": "Cole Nussbaumer Knaflic",
+      "note": "Practical guide to making data presentations that actually communicate. I reference this constantly.",
+      "type": "book",
+      "url": "https://www.goodreads.com/book/show/26535513-storytelling-with-data",
+      "displayOrder": 3
+    },
+    {
+      "title": "The Mythical Man-Month",
+      "author": "Frederick Brooks",
+      "note": "Timeless essays on software engineering and why adding people to a late project makes it later.",
+      "type": "book",
+      "displayOrder": 4
+    },
+    {
+      "title": "How to Do Great Work",
+      "author": "Paul Graham",
+      "note": "A long essay on the common patterns behind exceptional work across fields. Worth revisiting yearly.",
+      "type": "article",
+      "url": "http://paulgraham.com/greatwork.html",
+      "displayOrder": 5
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Animesh Upreti",
+  "hero": {
+    "heading": "Building things that matter.",
+    "tagline": "Product thinker, data storyteller, and builder of tools that simplify complexity."
+  },
+  "about": {
+    "bio": "I work at the intersection of product, data, and design. With experience spanning analytics, operations, and customer experience, I build tools and systems that turn ambiguity into clarity. I care about craft, about getting the details right, and about making work that holds up over time.",
+    "highlights": [
+      { "label": "Role", "value": "Product & Analytics" },
+      { "label": "Experience", "value": "5+ years" },
+      { "label": "Focus", "value": "Data, CX, Tooling" }
+    ]
+  },
+  "contact": {
+    "cta": "Have a project in mind or just want to say hello? Drop me a line.",
+    "email": "hello@example.com",
+    "socials": [
+      { "platform": "LinkedIn", "url": "https://linkedin.com/in/example" },
+      { "platform": "GitHub", "url": "https://github.com/example" }
+    ]
+  },
+  "navigation": [
+    { "label": "Home", "href": "/", "number": 1 },
+    { "label": "Projects", "href": "/projects", "number": 2 },
+    { "label": "Reading", "href": "/reading", "number": 3 },
+    { "label": "Contact", "href": "/#contact", "number": 4 }
+  ]
+}

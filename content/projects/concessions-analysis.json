@@ -1,0 +1,19 @@
+{
+  "slug": "concessions-analysis",
+  "title": "Concessions Deep Dive",
+  "description": "An analytical framework for identifying root causes of customer concessions, quantifying financial impact, and recommending targeted interventions to reduce refund rates.",
+  "shortDescription": "Analytical framework for customer concession reduction",
+  "role": "Analytics Lead",
+  "timeline": "Sep 2024 – Dec 2024",
+  "tools": ["Python", "Pandas", "SQL", "Jupyter", "Excel"],
+  "thumbnail": "/images/projects/concessions-analysis.png",
+  "contentType": "case-study",
+  "displayOrder": 3,
+  "images": [
+    { "src": "/images/projects/concessions-analysis.png", "alt": "Concessions analysis notebook showing trend decomposition" },
+    { "src": "/images/projects/concessions-detail.png", "alt": "Root cause waterfall chart breaking down concession drivers" }
+  ],
+  "problem": "Customer concessions were rising quarter-over-quarter with no clear attribution. Leadership needed to understand which operational failures drove the most financial impact.",
+  "process": "I built a multi-dimensional analysis framework that decomposed concessions by category, root cause, and fulfillment path. Used statistical methods to isolate signal from noise and prioritize interventions.",
+  "solution": "Delivered a prioritized action plan that identified 3 root causes responsible for 60% of concession spend, leading to targeted process changes and a measurable reduction in refund rates."
+}

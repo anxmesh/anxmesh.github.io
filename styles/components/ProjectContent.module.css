@@ -1,0 +1,83 @@
+.content {
+  padding-inline: var(--gutter);
+  max-width: var(--max-width-content);
+  margin-inline: auto;
+  padding-bottom: var(--space-section);
+}
+
+.description {
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+  color: var(--color-foreground);
+  max-width: 65ch;
+  margin-bottom: var(--space-xl);
+}
+
+/* Case study sections */
+.caseStudySection {
+  margin-bottom: var(--space-xl);
+}
+
+.caseStudyLabel {
+  font-size: var(--text-sm);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  margin-bottom: var(--space-sm);
+}
+
+.caseStudyText {
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+  color: var(--color-foreground);
+  max-width: 65ch;
+}
+
+/* Image gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+  margin-top: var(--space-xl);
+}
+
+.galleryImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+}
+
+.imageCaption {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  margin-top: var(--space-xs);
+}
+
+/* External link */
+.externalLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-accent);
+  text-decoration: none;
+  margin-top: var(--space-lg);
+  transition: color var(--transition-fast);
+}
+
+.externalLink:hover {
+  color: var(--color-accent-hover);
+}
+
+.externalLinkArrow {
+  font-size: 1.2em;
+}
+
+@media (min-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
