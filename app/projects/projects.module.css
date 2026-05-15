@@ -1,6 +1,6 @@
 .page {
-  padding-top: calc(var(--space-2xl) + 4rem);
-  padding-bottom: var(--space-section);
+  padding-top: var(--space-xl);
+  padding-bottom: calc(var(--space-section) + 80px);
   padding-inline: var(--gutter);
   max-width: var(--max-width-content);
   margin-inline: auto;

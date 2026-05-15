@@ -263,6 +263,13 @@ export function validateSiteConfig(data: unknown): SiteConfig {
   assertString(hero.tagline, "hero.tagline", context);
   assertMaxLength(hero.tagline as string, 150, "hero.tagline", context);
 
+  // Optional rotatingPhrases
+  let rotatingPhrases: string[] | undefined;
+  if (hero.rotatingPhrases !== undefined) {
+    assertArray(hero.rotatingPhrases, "hero.rotatingPhrases", context);
+    rotatingPhrases = hero.rotatingPhrases as string[];
+  }
+
   // about
   if (typeof d.about !== "object" || d.about === null) {
     throw new ValidationError(
@@ -343,6 +350,7 @@ export function validateSiteConfig(data: unknown): SiteConfig {
     hero: {
       heading: hero.heading as string,
       tagline: hero.tagline as string,
+      rotatingPhrases: rotatingPhrases,
     },
     about: {
       bio: about.bio as string,

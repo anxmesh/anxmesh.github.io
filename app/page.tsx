@@ -14,6 +14,7 @@ export default function Home() {
     <>
       <HeroSection
         heading={config.hero.heading}
+        rotatingPhrases={config.hero.rotatingPhrases}
         tagline={config.hero.tagline}
         socials={config.contact.socials}
         avatar="/images/avatar.png"

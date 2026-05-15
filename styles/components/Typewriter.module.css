@@ -1,0 +1,23 @@
+.typewriter {
+  display: inline;
+}
+
+.text {
+  color: var(--color-accent);
+}
+
+.cursor {
+  color: var(--color-accent);
+  animation: blink 0.8s step-end infinite;
+  font-weight: 300;
+  margin-left: 1px;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

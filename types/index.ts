@@ -96,6 +96,7 @@ export interface SiteConfig {
   hero: {
     heading: string;
     tagline: string;
+    rotatingPhrases?: string[];
   };
   about: {
     bio: string;

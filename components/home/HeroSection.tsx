@@ -1,18 +1,30 @@
 import Image from "next/image";
-import type { HeroSectionProps, SocialLink } from "@/types";
+import type { SocialLink } from "@/types";
+import Typewriter from "./Typewriter";
 import styles from "@/styles/components/HeroSection.module.css";
 
-interface HeroProps extends HeroSectionProps {
+interface HeroProps {
+  heading: string;
+  rotatingPhrases?: string[];
+  tagline: string;
   socials?: SocialLink[];
   avatar?: string;
 }
 
-export default function HeroSection({ heading, tagline, socials, avatar }: HeroProps) {
+export default function HeroSection({ heading, rotatingPhrases, tagline, socials, avatar }: HeroProps) {
   return (
     <section className={styles.hero} id="hero" aria-label="Introduction">
       <div className={styles.heroContent}>
         <div className={styles.heroText}>
-          <h1 className={styles.heading}>{heading}</h1>
+          <h1 className={styles.heading}>
+            {heading}
+            {rotatingPhrases && rotatingPhrases.length > 0 && (
+              <>
+                <br />
+                <Typewriter phrases={rotatingPhrases} />
+              </>
+            )}
+          </h1>
           <p className={styles.tagline}>{tagline}</p>
           {socials && socials.length > 0 && (
             <div className={styles.socials}>

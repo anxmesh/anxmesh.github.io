@@ -7,7 +7,7 @@ import type { Metadata } from "next";
  */
 import "@/styles/globals.css";
 import "@/styles/utilities.css";
-import NavigationBar from "@/components/layout/NavigationBar";
+import FloatingNav from "@/components/layout/FloatingNav";
 import Footer from "@/components/layout/Footer";
 import { getSiteConfig } from "@/lib/site";
 
@@ -48,10 +48,7 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <NavigationBar
-          links={siteConfig.navigation}
-          siteName={siteConfig.name}
-        />
+        <FloatingNav links={siteConfig.navigation} />
         <main>{children}</main>
         <Footer />
       </body>
