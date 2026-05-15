@@ -67,18 +67,21 @@ export default function NavigationBar({ links, siteName }: NavigationBarProps) {
         <ThemeToggle />
       </div>
 
-      {/* Mobile menu toggle */}
-      <button
-        className={styles.menuToggle}
-        onClick={toggle}
-        aria-expanded={isOpen}
-        aria-controls="mobile-menu"
-        aria-label={isOpen ? "Close menu" : "Open menu"}
-      >
-        <span className={styles.menuToggleBar} />
-        <span className={styles.menuToggleBar} />
-        <span className={styles.menuToggleBar} />
-      </button>
+      {/* Mobile: theme toggle + hamburger */}
+      <div className={styles.mobileActions}>
+        <ThemeToggle />
+        <button
+          className={styles.menuToggle}
+          onClick={toggle}
+          aria-expanded={isOpen}
+          aria-controls="mobile-menu"
+          aria-label={isOpen ? "Close menu" : "Open menu"}
+        >
+          <span className={styles.menuToggleBar} />
+          <span className={styles.menuToggleBar} />
+          <span className={styles.menuToggleBar} />
+        </button>
+      </div>
 
       {/* Mobile menu */}
       <MobileMenu
