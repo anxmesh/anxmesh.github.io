@@ -22,8 +22,10 @@
   },
   "navigation": [
     { "label": "Home", "href": "/", "number": 1 },
-    { "label": "Projects", "href": "/projects", "number": 2 },
-    { "label": "Reading", "href": "/reading", "number": 3 },
-    { "label": "Contact", "href": "/#contact", "number": 4 }
+    { "label": "About", "href": "/about", "number": 2 },
+    { "label": "Projects", "href": "/projects", "number": 3 },
+    { "label": "Reading", "href": "/reading", "number": 4 },
+    { "label": "Contact", "href": "/#contact", "number": 5 },
+    { "label": "Resume", "href": "https://drive.google.com/file/d/1rIRJcgjnrORTZYtJRGpJWnQJ9-XpXk32/view?usp=sharing", "number": 6 }
   ]
 }

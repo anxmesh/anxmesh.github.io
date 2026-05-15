@@ -63,19 +63,39 @@ export default function MobileMenu({
         aria-modal="true"
         aria-label="Navigation menu"
       >
-        {links.map((link) => (
-          <Link
-            key={link.href}
-            href={link.href}
-            className={`${styles.menuLink} ${isActive(link.href) ? styles.menuLinkActive : ""}`}
-            onClick={onClose}
-          >
-            <span className={styles.menuLinkNumber}>
-              {formatNumber(link.number)}
-            </span>
-            {link.label}
-          </Link>
-        ))}
+        {links.map((link) => {
+          const isExternal = link.href.startsWith("http");
+          if (isExternal) {
+            return (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.menuLink}
+                onClick={onClose}
+              >
+                <span className={styles.menuLinkNumber}>
+                  {formatNumber(link.number)}
+                </span>
+                {link.label}
+              </a>
+            );
+          }
+          return (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={`${styles.menuLink} ${isActive(link.href) ? styles.menuLinkActive : ""}`}
+              onClick={onClose}
+            >
+              <span className={styles.menuLinkNumber}>
+                {formatNumber(link.number)}
+              </span>
+              {link.label}
+            </Link>
+          );
+        })}
       </div>
     </>
   );

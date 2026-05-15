@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { AboutSectionProps } from "@/types";
 import styles from "@/styles/components/AboutSection.module.css";
 
@@ -16,6 +17,9 @@ export default function AboutSection({ bio, highlights, photo }: AboutSectionPro
               </div>
             ))}
           </div>
+          <Link href="/about" className={styles.readMore}>
+            Read more about me →
+          </Link>
         </div>
         {photo && (
           <Image

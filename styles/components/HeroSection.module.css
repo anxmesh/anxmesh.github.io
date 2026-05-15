@@ -22,6 +22,38 @@
   }
 }
 
+.heroContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-xl);
+}
+
+.heroText {
+  flex: 1;
+}
+
+.heroAvatar {
+  flex-shrink: 0;
+}
+
+.avatarImage {
+  width: clamp(180px, 20vw, 280px);
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
 .heading {
   font-size: var(--text-hero);
   font-weight: var(--font-weight-black);
@@ -66,4 +98,16 @@
 .socialLink:hover {
   color: var(--color-foreground);
   border-color: var(--color-foreground);
+}
+
+@media (max-width: 767px) {
+  .heroContent {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: var(--space-lg);
+  }
+
+  .avatarImage {
+    width: 120px;
+  }
 }

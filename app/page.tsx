@@ -16,6 +16,7 @@ export default function Home() {
         heading={config.hero.heading}
         tagline={config.hero.tagline}
         socials={config.contact.socials}
+        avatar="/images/avatar.png"
       />
       <AnimatedSection animation="fade-up">
         <AboutSection
