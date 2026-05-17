@@ -1,32 +1,32 @@
 {
   "intro": {
     "heading": "A little more about me",
-    "text": "I'm a product thinker and data storyteller based in India. I work at the intersection of analytics, operations, and customer experience — building tools and systems that turn ambiguity into clarity."
+    "text": "I lead analytics and strategy for Amazon India's Customer Experience organisation. My work sits at the intersection of data, product, and operations — turning ambiguous, large-scale problems into structured frameworks that teams can act on."
   },
   "quickFacts": [
-    "I've spent 5+ years working in analytics and product, primarily in e-commerce and logistics.",
-    "I'm passionate about building internal tools that save teams hours of manual work every week.",
-    "I believe the best dashboards tell a story — not just display numbers.",
-    "Outside of work, I'm usually reading, experimenting with side projects, or exploring new cities.",
-    "I care deeply about craft and getting the details right.",
-    "I think the best solutions come from understanding the problem deeply before writing any code."
+    "I lead a team of analysts focused on customer experience improvement across Amazon India.",
+    "I built a GenAI-powered self-serve analytics tool (Claude LLM) that's now used across multiple functions.",
+    "I designed an automation framework that identified a 10M annual contact reduction opportunity across 103M contacts.",
+    "I self-taught Python and AWS in three weeks to fix a production failure — and never looked back.",
+    "I believe the hardest part of analytics isn't the analysis — it's getting the right people to act on it.",
+    "Outside of work, I'm usually reading, building side projects, or exploring new cities."
   ],
   "journey": {
     "heading": "My Journey",
     "entries": [
       {
-        "year": "2020 – 2021",
-        "text": "Started my career in analytics, learning the ropes of data pipelines, SQL, and how to translate business questions into actionable insights. Built my first dashboards and fell in love with the craft of data storytelling.",
+        "year": "2024 – Present",
+        "text": "Senior Business Analyst at Amazon India, leading analytics and strategy for the Customer Experience org. I own the full spectrum from experimentation and statistical modelling to GenAI tooling and scalable data infrastructure.\n\nBuilt a GenAI-powered self-serve analytics tool using Claude LLM that lets teams pull complex insights without writing a single query — now used across multiple functions, saving hundreds of hours in its first month. Also designed a scalable automation framework that identified a 10M annual contact reduction opportunity across 103M customer contacts.\n\nA large part of my role involves working across product, engineering, and operations teams to turn analytical findings into actual change. I also manage and mentor a team of analysts, building the culture and systems for scalable analytical thinking.",
         "image": null
       },
       {
-        "year": "2021 – 2023",
-        "text": "Moved into a product-adjacent role, working closely with operations teams to identify pain points and build solutions. This is where I learned that the best tools aren't the most complex — they're the ones people actually use.",
+        "year": "2022 – 2024",
+        "text": "Business Analyst at Amazon India, owning product analytics, experimentation, and pipeline development across the customer experience function. This is where I built my technical foundation.\n\nDrove product analytics and experimentation for internal tools — my biggest win was scaling adoption of an internal analytics product from 10% to 85% in six weeks through feedback-driven UI/UX iterations.\n\nWhen a production failure started impacting thousands of weekly order referrals, I self-taught Python and AWS in three weeks to build an automated pipeline that fixed the problem. That experience fundamentally changed how I approach analytics — from someone who analysed data to someone who could build the infrastructure to capture it.\n\nAlso redesigned customer contact routing through staggered A/B experiments, significantly reducing annual transfers and saving hundreds of millions in concession costs.",
         "image": null
       },
       {
-        "year": "2023 – Present",
-        "text": "Now focused on building end-to-end solutions — from identifying the problem, to designing the data architecture, to shipping the final product. I work across analytics, tooling, and process improvement, always with an eye on impact.",
+        "year": "2020 – 2022",
+        "text": "Started my career in analytics, learning the ropes of data pipelines, SQL, and how to translate business questions into actionable insights. Built my first dashboards and fell in love with the craft of data storytelling. Learned that the best tools aren't the most complex — they're the ones people actually use.",
         "image": null
       }
     ]
