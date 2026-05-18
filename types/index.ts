@@ -51,9 +51,20 @@ export interface Project {
   displayOrder: number;
   externalLink?: string;
   images: ProjectImage[];
+  // Case study fields
   problem?: string;
   process?: string;
   solution?: string;
+  // Rich case study fields
+  category?: string;
+  subtitle?: string;
+  team?: string;
+  stakeholders?: string;
+  duration?: string;
+  metrics?: { label: string; value: string }[];
+  approach?: string;
+  outcome?: string;
+  whyItMattered?: string;
 }
 
 export interface ProjectCardData {

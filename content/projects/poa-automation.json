@@ -1,0 +1,30 @@
+{
+  "slug": "poa-automation",
+  "title": "POA Automation Engine",
+  "subtitle": "WW-IN First Automated Seller POA Evaluation",
+  "description": "An end-to-end automated system for evaluating seller Plan of Action submissions on Andon Cord tickets, reducing turnaround time by 73% and addressing 6200 DPMO impacting 1.86M customers.",
+  "shortDescription": "WW-IN first POA automation — 73% TAT reduction, 1.86M customers",
+  "category": "Product Build + Automation",
+  "role": "Lead Analyst & Architect",
+  "team": "IN CX Andon Cord Analytics",
+  "stakeholders": "Andon Cord Resolvers, Seller Experience, IN Marketplace Quality",
+  "duration": "8 Weeks",
+  "timeline": "Q4 2024 – Q1 2025",
+  "tools": ["Python", "Qualtrics", "Data Pipelines", "SQL", "Survey Architecture"],
+  "thumbnail": "/images/projects/poa-automation.png",
+  "contentType": "case-study",
+  "displayOrder": 6,
+  "metrics": [
+    { "label": "TAT Reduction", "value": "73%" },
+    { "label": "DPMO Addressed", "value": "6200" },
+    { "label": "Customers Impacted", "value": "1.86M" },
+    { "label": "Person-hours Eliminated", "value": "50% of ACs" }
+  ],
+  "problem": "Over 40% of Andon Cords in the IN marketplace are resolved through seller-submitted POAs, but the current manual, email-based evaluation process lacked rigor. With only 24% of WW Auto Andon detections investigated due to resolver constraints, 1.6M detections (6200 DPMO / 1.86M impacted customers) remained unresolved annually.",
+  "approach": "Working with the AC Team, I created a data pipeline to identify high-impact, eligible offers that were unresolved despite being pulled. I identified key gaps in the current POA framework and built use-case-specific, streamlined evaluation criteria. I onboarded the Qualtrics tool to enable an IN-AC first automated solution for seller communication and response consolidation, and built end-to-end data architecture for delivery of surveys, collection of inputs, review of POAs, and analytical evaluation.",
+  "outcome": "In Feb '25, the team piloted the solution on 100 seller-actionable Andon tickets. Results: 77% tickets flagged for suppression (vs. 90% ideal), 23% POAs accepted (vs. 10% ideal), leading to TAT reduction of 73% from 15 days to 4 days and eliminating person-hour requirements for 50% of ACs.",
+  "whyItMattered": "This was a WW-IN first — no other marketplace had automated the POA evaluation process. It proved that combining data architecture with survey tooling could solve a problem that had been considered too complex for automation. The framework is now being evaluated for WW expansion.",
+  "images": [
+    { "src": "/images/projects/poa-automation.png", "alt": "POA Automation Engine workflow diagram" }
+  ]
+}

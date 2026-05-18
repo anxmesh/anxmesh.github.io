@@ -1,0 +1,30 @@
+{
+  "slug": "non-ops-controllable-funnel",
+  "title": "Non-Ops Controllable Funnel",
+  "subtitle": "Defect Attribution Correction at Scale",
+  "description": "Rebuilt the defect attribution framework for a category spiking 115% YoY, consolidating 30+ signals into a unified pipeline and driving WWDE alignment on corrections impacting 1.0M customers.",
+  "shortDescription": "30+ signal pipeline correcting 3800 DPMO for 1.0M customers",
+  "category": "Data Architecture + Cross-Org Strategy",
+  "role": "Lead Analyst",
+  "team": "IN CX Concessions Analytics",
+  "stakeholders": "WWDE (Worldwide Defect Elimination), IN DPMO Leadership",
+  "duration": "2 Months",
+  "timeline": "Q2 – Q3 2024",
+  "tools": ["SQL", "Python", "Data Pipelines", "QuickSight", "Automated WBR Reports"],
+  "thumbnail": "/images/projects/non-ops-funnel.png",
+  "contentType": "case-study",
+  "displayOrder": 5,
+  "metrics": [
+    { "label": "DPMO Corrected", "value": "2600" },
+    { "label": "Customers Impacted", "value": "1.0M" },
+    { "label": "Signals Consolidated", "value": "30+" },
+    { "label": "YoY Spike Addressed", "value": "115%" }
+  ],
+  "problem": "The Non-Ops Controllable Defect Category (4612 DPMO, 4% of overall IN DPMO) lacked clear representation of underlying customer-faced defects. Its attribution logic didn't account for IN regional nuances, resulting in no improvements to root causes and the bucket spiking 115% YoY.",
+  "approach": "I deep-dived into the defects being attributed within this bucket to identify gaps and data signals for accurate segmentation (ATS HT exclusion, BAP flagging, incorrect Undeliverable & Reject attribution). I created an exhaustive data pipeline consolidating 30+ signals into a single stream overlayed onto order-level data, enabling both deep dive and reporting capabilities within the same architecture. I then set up automated WBR reports and a deep dive dashboard to track defects along corrected lines, and worked with WWDE to fix misattribution.",
+  "outcome": "Partnering with WWDE, the team implemented funnel corrections on BAP flagging by Q3 '25, ensuring 2600 DPMO (impacting 0.4M customers) is correctly allocated and the underlying customer-facing defects targeted. The remainder 1200 DPMO (impacting 0.6M customers) is planned for Q1-26.",
+  "whyItMattered": "This project showed that sometimes the biggest impact comes not from solving new problems, but from correctly defining existing ones. By fixing how defects were attributed, we unlocked the ability to actually address root causes that had been invisible for years.",
+  "images": [
+    { "src": "/images/projects/non-ops-funnel.png", "alt": "Non-Ops Controllable defect funnel breakdown" }
+  ]
+}

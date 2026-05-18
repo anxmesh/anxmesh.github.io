@@ -1,0 +1,30 @@
+{
+  "slug": "cap-auto-routing",
+  "title": "CAP Auto-Routing Improvements",
+  "subtitle": "A/B Experimentation for Contact Routing Optimization",
+  "description": "Redesigned customer contact routing through staggered A/B experiments, improving auto-routing by 1200bps and reducing 1.64M annual transfers while saving INR 250M in concession costs.",
+  "shortDescription": "1200bps routing improvement, INR 250M savings via A/B experiments",
+  "category": "Experimentation + Operations",
+  "role": "Analytics Lead",
+  "team": "IN CX Concessions Analytics",
+  "stakeholders": "CTAP Smart Routing, CAP Data-service, CS Operations",
+  "duration": "3 Months",
+  "timeline": "Q2 – Q4 2023",
+  "tools": ["SQL", "A/B Testing", "Weblab", "Statistical Analysis", "QuickSight"],
+  "thumbnail": "/images/projects/cap-routing.png",
+  "contentType": "case-study",
+  "displayOrder": 3,
+  "metrics": [
+    { "label": "Auto-routing Improvement", "value": "1200 bps" },
+    { "label": "Transfers Reduced", "value": "1.64M/year" },
+    { "label": "Concession Savings", "value": "INR 250M" },
+    { "label": "Recognition", "value": "Just Do It Award" }
+  ],
+  "problem": "CAP auto-routing was at just 3% in Dec 2021 with 27% concession leakages. The system was WW-owned by CAP Data-service but IN-owned by CTAP's Smart Routing Recommender, creating a fragmented ownership model. Manual routing was causing unnecessary transfers and concession costs.",
+  "approach": "I deep-dived manual routing contacts and identified opportunity areas — for example, 40% of 'Wrong Item' contacts had no routing rule at all. I created a business case for CTAP, then designed and enabled a staggered weblab-based launch with Control vs Treatment analysis for each new rule. This allowed us to measure impact incrementally and roll back if needed.",
+  "outcome": "Launched 6 new auto-routing rules. Auto-routing improved from 28% to 45% (1200bps). 1.64M annualized transfers reduced. INR 250M in concession savings. Received the Just Do It award at AIM '24.",
+  "whyItMattered": "This project demonstrated that experimentation-driven operations improvement could deliver massive financial impact. The staggered approach became a template for how the team launches routing changes — test small, measure rigorously, scale what works.",
+  "images": [
+    { "src": "/images/projects/cap-routing.png", "alt": "CAP auto-routing improvement chart showing before and after metrics" }
+  ]
+}

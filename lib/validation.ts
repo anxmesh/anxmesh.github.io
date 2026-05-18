@@ -150,9 +150,14 @@ export function validateProject(data: unknown, filename: string): Project {
 
   // Case study conditional fields
   if (d.contentType === "case-study") {
-    assertString(d.problem, "problem", context);
-    assertString(d.process, "process", context);
-    assertString(d.solution, "solution", context);
+    // Accept either legacy fields (problem/process/solution) or rich fields (approach/outcome)
+    const hasLegacy = d.process !== undefined;
+    const hasRich = d.approach !== undefined || d.outcome !== undefined;
+    if (!hasLegacy && !hasRich) {
+      assertString(d.problem, "problem", context);
+      assertString(d.process, "process", context);
+      assertString(d.solution, "solution", context);
+    }
   }
 
   // Optional externalLink
@@ -182,6 +187,15 @@ export function validateProject(data: unknown, filename: string): Project {
     problem: d.problem as string | undefined,
     process: d.process as string | undefined,
     solution: d.solution as string | undefined,
+    category: d.category as string | undefined,
+    subtitle: d.subtitle as string | undefined,
+    team: d.team as string | undefined,
+    stakeholders: d.stakeholders as string | undefined,
+    duration: d.duration as string | undefined,
+    metrics: Array.isArray(d.metrics) ? (d.metrics as { label: string; value: string }[]) : undefined,
+    approach: d.approach as string | undefined,
+    outcome: d.outcome as string | undefined,
+    whyItMattered: d.whyItMattered as string | undefined,
   };
 }
 

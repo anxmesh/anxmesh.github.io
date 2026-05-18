@@ -1,0 +1,30 @@
+{
+  "slug": "ssa-concessions-entitlement",
+  "title": "SSA Concessions Entitlement",
+  "subtitle": "Scalable Framework for 103M Customer Contacts",
+  "description": "A comprehensive analytical framework that identified a 10M annual contact reduction opportunity by bucketizing and analyzing 103M customer contacts from IN Stores, presented to L8+ leadership.",
+  "shortDescription": "10M contact reduction identified across 103M IN Stores contacts",
+  "category": "Strategy + Data Architecture",
+  "role": "Concessions SME & Lead Analyst",
+  "team": "IN CX Concessions Analytics",
+  "stakeholders": "L8+ Leadership, WWCS Tech, IN Stores",
+  "duration": "6 Weeks",
+  "timeline": "Q4 2024 – Q1 2025",
+  "tools": ["SQL", "Python", "QuickSight", "Data Pipelines", "Statistical Analysis"],
+  "thumbnail": "/images/projects/ssa-entitlement.png",
+  "contentType": "case-study",
+  "displayOrder": 2,
+  "metrics": [
+    { "label": "Contact Reduction", "value": "10M/year" },
+    { "label": "Contacts Analyzed", "value": "103M" },
+    { "label": "Signals Consolidated", "value": "20+" },
+    { "label": "Presented to", "value": "L8+ Leadership" }
+  ],
+  "problem": "Due to a Contact Automation commitment shortfall, there was a gap of 9M contact reduction in the plan vs OP2 2025 for IN. The organisation needed a structured framework to identify where additional self-serve opportunities existed across the massive contact volume.",
+  "approach": "As the concessions SME, I built a comprehensive data pipeline consolidating 20+ pertinent regional signals. I conducted an extensive deep dive to accurately bucketize contacts, audited and tested enablement for WWCS Tech, developed recommendations for target buckets with regional nuance pre-requisites, and created a detailed, scalable framework covering 103M contacts from IN Stores.",
+  "outcome": "Identified an additional 10M annualized contact reduction entitlement, reducing the gap to OP and highlighting opportunities to improve customer self-serve capabilities. The framework was presented to L8+ leadership and adopted as the standard approach for contact reduction planning.",
+  "whyItMattered": "This wasn't just an analysis — it was a reusable framework that changed how the organisation thinks about contact reduction. Instead of ad hoc investigations, teams now have a structured, data-backed methodology for identifying and prioritising self-serve opportunities at scale.",
+  "images": [
+    { "src": "/images/projects/ssa-entitlement.png", "alt": "Contact reduction framework overview" }
+  ]
+}

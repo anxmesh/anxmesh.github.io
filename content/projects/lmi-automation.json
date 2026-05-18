@@ -1,0 +1,30 @@
+{
+  "slug": "lmi-automation",
+  "title": "LMI Automation Pipeline",
+  "subtitle": "From 57% Data Loss to 5% — Built from Zero",
+  "description": "A Python-based automation pipeline that fixed a critical production failure impacting thousands of weekly order referrals, reducing data loss from 57% to 5% and unlocking INR 374M in annualized savings.",
+  "shortDescription": "Python automation: 57% → 5% data loss, INR 374M savings",
+  "category": "Automation + Engineering",
+  "role": "IC Owner & Developer",
+  "team": "IN CX Concessions Analytics",
+  "stakeholders": "ATS Team, 3P Trans Team, CS Operations",
+  "duration": "3 Weeks (self-taught Python + AWS + build)",
+  "timeline": "Q1 2023",
+  "tools": ["Python", "AWS", "Maxis API", "CRON Jobs", "Datanet"],
+  "thumbnail": "/images/projects/lmi-automation.png",
+  "contentType": "case-study",
+  "displayOrder": 4,
+  "metrics": [
+    { "label": "Data Loss Reduction", "value": "57% → 5%" },
+    { "label": "Annualized Savings", "value": "INR 374M" },
+    { "label": "Orders Recovered", "value": "13K/week" },
+    { "label": "Productivity Savings", "value": "182 hrs/year" }
+  ],
+  "problem": "95% of LMI referrals for RWP and 15% for DNR/IM were not getting queued due to a manual macro process break. This meant thousands of weekly order referrals were being lost, representing an INR 816M annualized opportunity that was going unaddressed.",
+  "approach": "I self-taught Python and AWS in three weeks to build the solution. The pipeline uses the Maxis API for data extraction, CRON jobs for JSON payload extraction and cleaning, and a Datanet script for delivery scan overlay. It automates ticket portrayal to ATS and 3P Trans teams, eliminating the manual macro dependency entirely.",
+  "outcome": "Data loss reduced from 57% to 5%. An additional 13K orders per week are now referred for LMI. INR 374M annualized savings potential unlocked. 182 hours of annualized productivity savings for the operations team.",
+  "whyItMattered": "This project fundamentally changed how I approach analytics. I went from being someone who analysed data to someone who could build the infrastructure to capture it. It proved that an analyst with the right motivation can solve engineering problems — and that sometimes the fastest path to impact is building it yourself.",
+  "images": [
+    { "src": "/images/projects/lmi-automation.png", "alt": "LMI automation pipeline architecture diagram" }
+  ]
+}

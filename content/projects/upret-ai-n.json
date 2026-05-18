@@ -1,0 +1,30 @@
+{
+  "slug": "upret-ai-n",
+  "title": "Upret-AI-N",
+  "subtitle": "GenAI Self-Serve Analytics Tool",
+  "description": "A GenAI-powered self-serve query builder that lets teams across the organisation pull complex insights without writing a single query. Built using Claude LLM with domain-specific context awareness for CX analytics.",
+  "shortDescription": "GenAI self-serve analytics tool — 240 hrs saved, 32 users in 4 weeks",
+  "category": "GenAI + Product Development",
+  "role": "IC Owner & Developer",
+  "team": "IN CX Concessions Analytics",
+  "stakeholders": "IN CS Leadership, CX Analytics Consumers, Cedric Platform Team",
+  "duration": "4 Weeks",
+  "timeline": "Q3 2024",
+  "tools": ["Claude LLM", "Prompt Engineering", "Python", "SQL", "Cedric Platform"],
+  "thumbnail": "/images/projects/upret-ai-n.png",
+  "contentType": "case-study",
+  "displayOrder": 1,
+  "metrics": [
+    { "label": "Productivity Savings", "value": "240 hrs/year" },
+    { "label": "Users (4 weeks)", "value": "32" },
+    { "label": "Prompts Answered", "value": "80+" },
+    { "label": "First of its kind", "value": "CX-first" }
+  ],
+  "problem": "The analytics team spent an average of 4 hours per week building ad hoc deep dives for stakeholders or helping consumers debug self-serve processes. Additionally, 3 hours weekly went to repetitive manual consolidation of WBR inputs across program owners. Teams were bottlenecked on analyst availability for even standard queries.",
+  "approach": "I built a repository of standard code snippets and data sources used within CX analytics — covering contacts, concessions, and customer signals. Using this repository, I trained a Cedric-based AI assistant with prompt engineering practices to make it context-aware for any variety of CX analytical use cases. I introduced standard code writing practices and Amazon-specific SQL awareness to improve the usability of outputs.",
+  "outcome": "The bot amassed 32 unique users and answered over 80 unique prompts in its first 4 weeks. The analytics team now has an annualized productivity savings potential of 240 hours. It became the first self-serve query builder in IN CS.",
+  "whyItMattered": "This fundamentally changed how teams interact with data — from 'ask the analyst' to 'ask the bot.' It removed the analytics team as a bottleneck for standard queries whilst maintaining domain-specific accuracy. The tool is now being explored for expansion to other IN CS analytics teams.",
+  "images": [
+    { "src": "/images/projects/upret-ai-n.png", "alt": "Upret-AI-N bot interface showing a query response" }
+  ]
+}

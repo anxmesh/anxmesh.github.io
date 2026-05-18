@@ -2,23 +2,46 @@
   padding-inline: var(--gutter);
   max-width: var(--max-width-content);
   margin-inline: auto;
-  padding-bottom: var(--space-section);
+  padding-bottom: calc(var(--space-section) + 80px);
 }
 
-.description {
-  font-size: var(--text-base);
-  line-height: var(--leading-relaxed);
+/* --- Metric Cards --- */
+.metricsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+  padding: var(--space-lg);
+  background-color: var(--color-surface);
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+}
+
+.metricCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.metricValue {
+  font-size: var(--text-xl);
+  font-weight: var(--font-weight-bold);
   color: var(--color-foreground);
-  max-width: 65ch;
+  line-height: var(--leading-tight);
+}
+
+.metricLabel {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  font-weight: var(--font-weight-medium);
+}
+
+/* --- Section blocks --- */
+.section {
   margin-bottom: var(--space-xl);
 }
 
-/* Case study sections */
-.caseStudySection {
-  margin-bottom: var(--space-xl);
-}
-
-.caseStudyLabel {
+.sectionLabel {
   font-size: var(--text-sm);
   font-weight: var(--font-weight-bold);
   color: var(--color-accent);
@@ -27,14 +50,46 @@
   margin-bottom: var(--space-sm);
 }
 
-.caseStudyText {
+.sectionText {
   font-size: var(--text-base);
   line-height: var(--leading-relaxed);
   color: var(--color-foreground);
   max-width: 65ch;
 }
 
-/* Image gallery */
+/* --- Why It Mattered --- */
+.whyItMattered {
+  margin-top: var(--space-xl);
+  padding: var(--space-lg);
+  border-left: 3px solid var(--color-accent);
+  background-color: var(--color-surface);
+  border-radius: 0 8px 8px 0;
+}
+
+.whyItMatteredLabel {
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-accent);
+  margin-bottom: var(--space-sm);
+}
+
+.whyItMatteredText {
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+  color: var(--color-foreground);
+  max-width: 65ch;
+}
+
+/* --- Description (minimal layout) --- */
+.description {
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+  color: var(--color-foreground);
+  max-width: 65ch;
+  margin-bottom: var(--space-xl);
+}
+
+/* --- Image gallery --- */
 .gallery {
   display: grid;
   grid-template-columns: 1fr;
@@ -55,7 +110,7 @@
   margin-top: var(--space-xs);
 }
 
-/* External link */
+/* --- External link --- */
 .externalLink {
   display: inline-flex;
   align-items: center;

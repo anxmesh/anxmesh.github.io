@@ -29,9 +29,14 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
     <article>
       <ProjectMeta
         title={project.title}
+        subtitle={project.subtitle}
+        category={project.category}
         role={project.role}
         timeline={project.timeline}
         tools={project.tools}
+        team={project.team}
+        stakeholders={project.stakeholders}
+        duration={project.duration}
       />
       <ProjectContent
         contentType={project.contentType}
@@ -41,6 +46,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         problem={project.problem}
         process={project.process}
         solution={project.solution}
+        metrics={project.metrics}
+        approach={project.approach}
+        outcome={project.outcome}
+        whyItMattered={project.whyItMattered}
       />
       <ProjectNavigation
         previousProject={navigation.previous}
